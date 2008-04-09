@@ -2,7 +2,7 @@
 Contributors: AdaptiveBlue
 Tags: smartlinks
 Tested up to: 2.2.3
-Stable tag: trunk
+Stable tag: 1.1
 
 This plugin enables you to use SmartLinks on your WordPress blog!
 
