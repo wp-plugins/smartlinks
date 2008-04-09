@@ -8,7 +8,7 @@ This plugin enables you to use SmartLinks on your WordPress blog!
 
 == Description ==
 
-Use this plugin to enable SmartLinks on your WordPress blog. SmartLinks automatically deliver relevant information from the best sites on the web right to your blog.
+Use this plugin to enable SmartLinks on your WordPress blog. SmartLinks automatically deliver relevant information from the best sites on the web right to your blog and help you generate increased affiliate revenue.
 
 With SmartLinks, your readers can discover, explore, connect and browse smarter!
 
@@ -18,7 +18,8 @@ Learn more at http://www.adaptiveblue.com
 
 1. Upload `SmartLinks.php` to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Watch the SmartLinks appear on your blog!
+3. Watch the SmartLinks appear on your blog when you link to supported sites!
+4. Optional: In the `Options` tab, you'll see a tab for `SmartLinks Options`. Use this page to enter your affiliate ids for various affiliate programs.
 
 Show your support for AdaptiveBlue:
 Use your 'Presentation'/'Widgets' settings to drag the SmartLinks Graphic to your sidebar
