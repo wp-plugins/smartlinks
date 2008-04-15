@@ -1,7 +1,7 @@
 === SmartLinks Widget by AdaptiveBlue ===
 Contributors: AdaptiveBlue
 Tags: smartlinks
-Tested up to: 2.2.3
+Tested up to: 2.5
 Stable tag: 1.1
 
 This plugin enables you to use SmartLinks on your WordPress blog!
