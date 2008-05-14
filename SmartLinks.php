@@ -105,22 +105,22 @@ function smartlinks_options_page() { // variables for the field and option names
     ?>
 
     <form name="form1" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
-    <input type="hidden" name="<?php echo $hidden_field_name; ?>" value="Y">
+    <?php wp_nonce_field('update-options'); ?>
+    <input type="hidden" name="<?php echo $hidden_field_name; ?>" value="Y"/>
     <?php
         foreach($smartlinks_option_names as $label => $opt_name) {
     ?>
-            <div style="margin-bottom:5px;"><?php _e($label); ?>:<div>
+            <div style="margin-bottom:5px;"><?php _e($label); ?>:</div>
             <div style="margin-bottom:10px;"><input type="text" name="<?=$opt_name?>" value="<?=get_option($opt_name)?>" size="20"></div>
     <?php
         }
     ?>
-    <hr/>
     <p class="submit">
-    <input type="submit" name="Submit" value="<?php _e('Update Options') ?>" />
+        <input type="submit" name="Submit" value="<?php _e('Update Options &raquo;') ?>" />
     </p>
 
     </form>
-    </div>
+</div>
 
     <?php
 
